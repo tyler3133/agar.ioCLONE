@@ -1,16 +1,16 @@
 {
     "port": 3000,
-    "foodMass": 1,
+    "foodMass": 5,
     "fireFood": 20,
     "limitSplit": 16,
-    "defaultPlayerMass": 10,
+    "defaultPlayerMass": 50,
 	"virus": {
     "fill": "#33ff33",
   	"stroke": "#19D119",
 		"strokeWidth": 20,
 		"defaultMass": {
-            "from": 100,
-            "to": 150
+            "from": 500,
+            "to": 550
         },
 		"splitMass": 180
 	},
@@ -23,11 +23,10 @@
     "slowBase": 4.5,
     "logChat": 0,
     "networkUpdateFactor": 40,
-    "maxHeartbeatInterval": 5000,
     "foodUniformDisposition": true,
     "virusUniformDisposition": false,
     "newPlayerInitialPosition": "farthest",
     "massLossRate": 1,
     "minMassLoss": 50,
-    "mergeTimer": 15
+    "mergeTimer": 1
 }
